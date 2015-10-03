@@ -1,0 +1,11 @@
+Use case label: UC09.01.01
+Use Story: US09.01.01
+Test case: testPushMakeOnline() in testOffline.java
+Participating actor: Owner
+Goal : Be able to make inventory items while offline, and push application and expense information online once get connectivity.
+Tigger : Click “push online” in menu
+Precondition: Owner makes changes to his inventory
+Postcondition: Changes to the inventory are pushed online
+Basic Flow:
+    Owner makes changes to his inventory
+    System pushes the changes to the inventory online as soon as it gets connectivity
