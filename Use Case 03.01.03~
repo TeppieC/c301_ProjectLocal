@@ -7,6 +7,5 @@ Tigger : Borrower click into one of his friends' inventory
 Precondition: Borrower proposed a new trade with a seleted friend
 Postcondition: Trades are pushed
 Basic Flow:
-1. Borrower enters keywords
-2. System searches remote repository for questions matching keywords
-3. System shows a list of relevant questions
+    Borrower proposed a new trade with a selected friend
+    System pushes trade online as soon as it gets connectivity

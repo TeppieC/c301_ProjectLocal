@@ -1,14 +1,11 @@
 Use case label: UC09.01.01
 Use Story: US09.01.01
-Test case: testPushOnline() in testOffline.java
+Test case: testPushMakeOnline() in testOffline.java
 Participating actor: Owner
-Goal : Be able to make inventory items while offline, and push application and expense information online once I get connectivity.
-Tigger : As claimant, click “push online” in menu list
-Precondition: should be claimant
-Postcondition: claims are pushed
+Goal : Be able to make inventory items while offline, and push application and expense information online once get connectivity.
+Tigger : Borrower's device is currently offline and try to make changes to his inventory
+Precondition: Owner clicked into his cached inventory and made some changes to it.
+Postcondition: Changes to the inventory are pushed online
 Basic Flow:
-    Owner proposed a new trade with a selected friend
-    System pushes claim online as soon as it gets connectivity
-    Claimant edits claim
-    System updates information as soon as it gets connectivity
-
+    Owner makes changes to his inventory
+    System pushes the changes to the inventory online as soon as it gets connectivity

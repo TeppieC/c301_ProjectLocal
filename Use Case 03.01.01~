@@ -4,6 +4,8 @@ Test case: testSearchFriendsInventory() in testBrowSearchFriend.java
 Participating actor: Borrower, Friend
 Goal : Be able to search the DVD inventories of friends.
 Tigger : Borrower click into one of his friends' inventory
-Precondition: 
-Postcondition: 
+Precondition: Borrower proposed a new trade with a seleted friend
+Postcondition: Trades are pushed
 Basic Flow:
+    Borrower proposed a new trade with a selected friend
+    System pushes trade online as soon as it gets connectivity

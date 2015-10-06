@@ -1,9 +1,9 @@
-Use case label: UC09.01.03
-Use Story: US09.01.03
+Use case label: UC09.01.02
+Use Story: US09.01.02
 Test case: testPushTradeOnline() in testOffline.java
 Participating actor: Borrower
 Goal : Be able to make trades while offline, and push application and expense information online once get connectivity.
-Tigger : Click “push online” in menu list
+Tigger : Borrower makes a trade while offline and then gets an online connection.
 Precondition: Borrower proposed a new trade with a seleted friend
 Postcondition: Trades are pushed
 Basic Flow:

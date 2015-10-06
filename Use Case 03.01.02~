@@ -7,4 +7,4 @@ Tigger : Borrower has clicked into one of his friends' inventory and clicked "br
 Precondition: Borrower has a friend who has an inventory of DVDs which is visible to every friends
 Postcondition: Borrower are showed with all categories of his friend's inventory and all DVDs are listed inside of each category.
 Basic Flow:
-
+1.
