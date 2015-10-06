@@ -2,10 +2,10 @@ Use case label: UC09.01.03
 Use Story: US09.01.03
 Test case: testPushTradeOnline() in testOffline.java
 Participating actor: Borrower
-Goal : Be able to make trades while offline, and push application and expense information online once get connectivity.
-Tigger : Borrower's device is currently offline and try to make a trade with one of his friend
-Precondition: Borrower proposed a new trade with a seleted friend
-Postcondition: Trades are pushed
+Goal :  Be able to cache the inventories of the friends that has been previous looked at and browse them while offline.
+Tigger : Borrower's device is currently offline and try to browse in the inventories of his friends which he previous looked at.
+Precondition: Borrower clicked into one of his friends' inventory while offline
+Postcondition: Inventory is showed to the borrower
 Basic Flow:
     Borrower proposed a new trade with a selected friend
     System saves the trade locally

@@ -1,0 +1,9 @@
+Use case label: UC10.02.01
+Use Story: US10.02.01
+Test case: testEditProfile() in testConfig.java
+Participating actor: User
+Goal : Be able to edit user's own profile
+Tigger : User has clicked into Config page and try to edit his own profile by clicking "Edit" button.
+Precondition: User has a profile to be edited.
+Postcondition: User's profile has been modified.
+Basic Flow:

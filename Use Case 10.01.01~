@@ -2,7 +2,7 @@ Use case label: UC10.01.01
 Use Story: US10.01.01
 Test case: testIfDownloaded() in testConfig.java
 Participating actor: User
-Goal : Be able to specify if the user has download images or not
+Goal : Be able to to specify if the user has download images or not
 Tigger : 
 Precondition: 
 Postcondition: 
