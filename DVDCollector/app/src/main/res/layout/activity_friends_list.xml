@@ -4,20 +4,21 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <include layout="@layout/title"/>
+        <include layout="@layout/title_my_friendlist"/>
     </LinearLayout>
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="fill_parent">
-        <include layout="@layout/main_page_layout"/>
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listViewFriendList"/>
     </LinearLayout>
-
 
 </LinearLayout>
