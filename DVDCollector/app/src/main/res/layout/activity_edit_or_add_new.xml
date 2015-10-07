@@ -49,6 +49,7 @@
         android:layout_height="wrap_content"
         android:text="Save"
         android:id="@+id/button13"
+        android:background="@drawable/button_shape_gradient"
         android:layout_alignBottom="@+id/button12"
         android:layout_toStartOf="@+id/button12" />
 

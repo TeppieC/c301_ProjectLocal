@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:text=""
+            android:background="@drawable/ic_add_circle_black_24dp"
+            android:id="@+id/button2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:textSize="24dp"
+            android:text="Add another DVD"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
