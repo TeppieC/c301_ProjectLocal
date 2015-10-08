@@ -5,12 +5,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.example.teppie.dvdcollector.R;
-public class EditOrAddNewActivty extends BaseActivity {
+public class EditaddNewDvdActivty extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_edit_or_add_new);
+        setContentView(R.layout.activity_editadd_new_dvd);
     }
 
     @Override

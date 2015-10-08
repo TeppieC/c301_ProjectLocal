@@ -13,7 +13,6 @@ public class Owner {
     public Owner(String userName, String contact, String city) {
         this.myInventory = new Inventory();
         this.myProfile = new Profile(userName, contact, city);
-        this.myFriendList = new List<Owner>();
     }
 
 }
